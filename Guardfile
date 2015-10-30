@@ -1,0 +1,6 @@
+guard 'livereload' do
+  watch('index.html')
+  watch(%r{stylesheets/.+\.(css)})
+  watch(%r{scripts/.+\.(js)})
+end
+guard :compass
