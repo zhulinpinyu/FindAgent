@@ -6,7 +6,7 @@
 $highlight-text-color: white;
 $bg-color: #f1f0ed;
 $text-color: #4f4f4f;
-$secondy-text-color: #d9dada;
+$secondy-text-color: #b1b4b9;
 $button-color: #6cdcac;
 $border-color: #9c9c9c;
 
@@ -198,8 +198,77 @@ body {
           font-size: 1.5em;
           margin: 10px auto 120px auto;
           color: $secondy-text-color;
-          width: 250px;
+          width: 210px;
         }
+      }
+    }
+  }
+
+  @include clearfix;
+}
+
+.why-choose-us {
+  margin-top: 90px;
+  border-bottom: 1px $secondy-text-color solid;
+  overflow: hidden;
+  .title {
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 1em 0;
+
+    &:after {
+      display: block;
+      content: "";
+      background-color: $border-color;
+      width: 2em;
+      height: .1em;
+      margin: .4em auto;
+    }
+  }
+  ul {
+    margin: 80px 10% 140px 10%;
+    li {
+      position: relative;
+      width: 50%;
+      float: left;
+      height: 200px;
+      i {
+        position: relative;
+        font-size: 3.6em;
+        float: left;
+      }
+      .reason {
+        text-align: left;
+        margin: 0 10% 0 13%;
+        color: $text-color;
+        h2 {
+          font-size: 3em;
+        }
+        p {
+          margin-top: 20px;
+          line-height: 20px;
+          font-size: 1.5em;
+          color: $secondy-text-color;
+        }
+      }
+
+      .fa-check {
+        color: #57b381;
+      }
+      .fa-refresh {
+        color: #e69949;
+      }
+      .fa-file-text {
+        color: #ec546b;
+      }
+      .fa-tag {
+        color: #15a4e4;
+      }
+      .fa-user {
+        color: #9e62b7;
+      }
+      .fa-thumbs-up {
+        color: #e66949;
       }
     }
   }

@@ -117,7 +117,7 @@ body {
 /* line 55, ../sass/styles.scss */
 .hero h2 {
   font-size: 2em;
-  color: #d9dada;
+  color: #b1b4b9;
 }
 /* line 60, ../sass/styles.scss */
 .hero form {
@@ -164,13 +164,13 @@ body {
   float: left;
   width: 25%;
   box-sizing: border-box;
-  border-top: 1px solid #d9dada;
-  border-bottom: 1px solid #d9dada;
-  border-left: 1px solid #d9dada;
+  border-top: 1px solid #b1b4b9;
+  border-bottom: 1px solid #b1b4b9;
+  border-left: 1px solid #b1b4b9;
 }
 /* line 104, ../sass/styles.scss */
 .numbers ul li:last-child {
-  border-right: 1px solid #d9dada;
+  border-right: 1px solid #b1b4b9;
 }
 /* line 108, ../sass/styles.scss */
 .numbers ul li h2 {
@@ -184,7 +184,7 @@ body {
 
 /* line 122, ../sass/styles.scss */
 .how-it-works {
-  border-bottom: 1px #d9dada solid;
+  border-bottom: 1px #b1b4b9 solid;
   overflow: hidden;
   *zoom: 1;
 }
@@ -266,6 +266,88 @@ body {
 .how-it-works ul li .detail p {
   font-size: 1.5em;
   margin: 10px auto 120px auto;
-  color: #d9dada;
-  width: 250px;
+  color: #b1b4b9;
+  width: 210px;
+}
+
+/* line 210, ../sass/styles.scss */
+.why-choose-us {
+  margin-top: 90px;
+  border-bottom: 1px #b1b4b9 solid;
+  overflow: hidden;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 214, ../sass/styles.scss */
+.why-choose-us .title {
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+/* line 219, ../sass/styles.scss */
+.why-choose-us .title:after {
+  display: block;
+  content: "";
+  background-color: #9c9c9c;
+  width: 2em;
+  height: .1em;
+  margin: .4em auto;
+}
+/* line 228, ../sass/styles.scss */
+.why-choose-us ul {
+  margin: 80px 10% 140px 10%;
+}
+/* line 230, ../sass/styles.scss */
+.why-choose-us ul li {
+  position: relative;
+  width: 50%;
+  float: left;
+  height: 200px;
+}
+/* line 235, ../sass/styles.scss */
+.why-choose-us ul li i {
+  position: relative;
+  font-size: 3.6em;
+  float: left;
+}
+/* line 240, ../sass/styles.scss */
+.why-choose-us ul li .reason {
+  text-align: left;
+  margin: 0 10% 0 13%;
+  color: #4f4f4f;
+}
+/* line 244, ../sass/styles.scss */
+.why-choose-us ul li .reason h2 {
+  font-size: 3em;
+}
+/* line 247, ../sass/styles.scss */
+.why-choose-us ul li .reason p {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 1.5em;
+  color: #b1b4b9;
+}
+/* line 255, ../sass/styles.scss */
+.why-choose-us ul li .fa-check {
+  color: #57b381;
+}
+/* line 258, ../sass/styles.scss */
+.why-choose-us ul li .fa-refresh {
+  color: #e69949;
+}
+/* line 261, ../sass/styles.scss */
+.why-choose-us ul li .fa-file-text {
+  color: #ec546b;
+}
+/* line 264, ../sass/styles.scss */
+.why-choose-us ul li .fa-tag {
+  color: #15a4e4;
+}
+/* line 267, ../sass/styles.scss */
+.why-choose-us ul li .fa-user {
+  color: #9e62b7;
+}
+/* line 270, ../sass/styles.scss */
+.why-choose-us ul li .fa-thumbs-up {
+  color: #e66949;
 }
