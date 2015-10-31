@@ -1,7 +1,7 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
-@import "icomoon";
+
 
 $highlight-text-color: white;
 $bg-color: #f1f0ed;
@@ -9,17 +9,6 @@ $text-color: #4f4f4f;
 $secondy-text-color: #d9dada;
 $button-color: #6cdcac;
 $border-color: #9c9c9c;
-
-@font-face {
-  font-family: "icomoon";
-  src: url('../fonts/icomoon.eot?200299');
-  src: url('../fonts/icomoon.eot?#iefix200299') format('embedded-opentype'),
-       url('../fonts/icomoon.woff?200299') format('woff'),
-       url('../fonts/icomoon.ttf?200299') format('truetype'),
-       url('../fonts/icomoon.svg?200299#icomoon') format('svg');
-  font-size: normal;
-  font-style: normal;
-}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -193,15 +182,15 @@ body {
           font-size: 3.6em;
         }
 
-        .icon-list {
+        .fa-list {
           color: #eca95a;
         }
 
-        .icon-pencil {
+        .fa-pencil {
           color: #ac9cd2;
         }
 
-        .icon-users {
+        .fa-users {
           color: #4d99cb;
         }
 
