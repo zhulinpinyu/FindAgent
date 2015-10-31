@@ -237,7 +237,7 @@ body {
 .numbers ul {
   position: relative;
   top: -4em;
-  background: #efefef;
+  background-color: white;
   overflow: hidden;
   *zoom: 1;
 }
