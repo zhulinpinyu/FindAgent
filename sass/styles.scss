@@ -28,9 +28,10 @@ body {
 }
 
 .hero {
-  max-width: 110em;
+  max-width: 144em;
+  height: 40em;
   margin: 0 auto;
-  background: url('../images/IMG_0937.png');
+  background: url('../images/IMG_0937.png') no-repeat;
   background-size: cover;
   color: $highlight-text-color;
 
@@ -70,9 +71,11 @@ body {
     padding: 2em 0 4em 0;
 
     input[type="text"] {
-      padding: 1em;
+      margin-top: 10px;
+      padding: 10px;
       border: 0;
-      width: 18em;
+      width: 36%;
+      height: 30px;
       border-radius: 2px 0 0 2px;
       background-color: $bg-color;
       opacity: .3;
@@ -80,12 +83,13 @@ body {
 
     input[type="button"] {
       color: $highlight-text-color;
-      padding: 1em;
+      padding: 10px 20px;
       border: 0;
-      width: 6em;
+      height: 50px;
       border-radius: 0 2px 2px 0;
       text-transform: uppercase;
       background-color: $button-color;
+      font-weight: bold;
     }
   }
 }
@@ -96,7 +100,7 @@ body {
 
   ul {
     position: relative;
-    top: -1em;
+    top: -4em;
     background: $bg-color;
 
     li {
