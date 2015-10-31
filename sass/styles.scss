@@ -365,7 +365,6 @@ body {
   @include clearfix;
 }
 
-
 .find-an-agent {
   padding: 110px 0;
   overflow: hidden;
@@ -398,5 +397,33 @@ body {
     text-transform: uppercase;
     background-color: $button-color;
     font-weight: bold;
+  }
+}
+
+footer {
+  ul {
+    margin: 25px 12%;
+    li {
+      float: left;
+      font-size: 1.5em;
+      display: inline-block;
+      position: relative;
+      line-height: 26px;
+      margin-right: 25px;
+      color: $gray-color;
+    }
+    i {
+      float: right;
+      margin-right: 25px;
+      &.fa-twitter {
+        color: #3a7aaf;
+        font-size: 2.5em;
+      }
+      &.fa-facebook {
+        color: #3d5ea8;
+        font-size: 2.5em;
+      }
+    }
+    @include clearfix;
   }
 }
