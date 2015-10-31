@@ -4,7 +4,7 @@
 @import "icomoon";
 
 $highlight-text-color: white;
-$bg-color: #efefef;
+$bg-color: #f1f0ed;
 $text-color: #4f4f4f;
 $secondy-text-color: #d9dada;
 $button-color: #6cdcac;
@@ -25,6 +25,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
   text-align: center;
+  background: $bg-color;
 }
 
 .hero {
@@ -101,7 +102,7 @@ body {
   ul {
     position: relative;
     top: -4em;
-    background-color: white;
+    background-color: $bg-color;
 
     li {
       float: left;
@@ -130,6 +131,7 @@ body {
 }
 
 .how-it-works {
+  border-bottom: 1px $secondy-text-color solid;
   h2 {
     font-size: 2em;
     text-transform: uppercase;
@@ -205,10 +207,13 @@ body {
 
         p {
           font-size: 1.5em;
-          margin: auto 1.5em;
+          margin: 10px auto 120px auto;
           color: $secondy-text-color;
+          width: 250px;
         }
       }
     }
   }
+
+  @include clearfix;
 }
