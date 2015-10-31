@@ -9,6 +9,8 @@ $text-color: #4f4f4f;
 $secondy-text-color: #b1b4b9;
 $button-color: #6cdcac;
 $border-color: #9c9c9c;
+$dark-color: #4e5367;
+$gray-color: #b1b4b9;
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -269,6 +271,93 @@ body {
       }
       .fa-thumbs-up {
         color: #e66949;
+      }
+    }
+  }
+
+  @include clearfix;
+}
+
+.about-us {
+  text-align: center;
+  border-bottom: 1px $secondy-text-color solid;
+  .title {
+    margin: 100px auto 0 auto;
+    width: 410px;
+    overflow: hidden;
+    position: relative;
+
+    h3 {
+      width: 200px;
+      float: left;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+    }
+    h3:first-child {
+      background-color: $dark-color;
+      border: 1px $dark-color solid;
+      color: white;
+    }
+    h3:last-child {
+      border: 1px $dark-color solid;
+      color: $dark-color;
+    }
+  }
+  .description {
+    width: 100%;
+    margin-top: 40px;
+
+    i {
+      margin-bottom: 30px;
+      color: rgba(219, 219, 219, 0.5);
+      font-size: 2.5em;
+    }
+    p {
+      color: $dark-color;
+      font-size: 1.5em;
+      margin-bottom: 50px;
+      padding: 0 20%;
+      line-height: 20px;
+      &::after {
+        display: block;
+        content: "";
+        background-color: $border-color;
+        width: 2em;
+        height: .1em;
+        margin: .4em auto;
+      }
+    }
+    h3 {
+      font-size: 2em;
+    }
+    .author {
+      color: $dark-color;
+    }
+    .intro {
+      margin: 10px auto 40px auto;
+      color: $gray-color;
+    }
+    .images {
+      margin: 0px auto 120px auto;
+      overflow: hidden;
+      text-align: center;
+      width: 184*3px;
+      .image {
+        float: left;
+        width: 120px;
+        margin: auto 25px;
+        @include border-radius(50%);
+        border: 1px $border-color solid;
+        padding: 6px;
+        img {
+          width: 120px;
+          height: 120px;
+          @include border-radius(50%);
+        }
+        &:first-child, &:last-child {
+          @include filter(grayscale(100%));
+        }
       }
     }
   }
