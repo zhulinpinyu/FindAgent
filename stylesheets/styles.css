@@ -457,3 +457,40 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
+/* line 369, ../sass/styles.scss */
+.find-an-agent {
+  padding: 110px 0;
+  overflow: hidden;
+  background: url("../images/08.jpg");
+  background-size: cover;
+  text-align: center;
+}
+/* line 375, ../sass/styles.scss */
+.find-an-agent span {
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: white;
+}
+/* line 381, ../sass/styles.scss */
+.find-an-agent input[type="text"] {
+  margin-top: 10px;
+  padding: 10px;
+  border: 0;
+  width: 36%;
+  height: 30px;
+  border-radius: 2px 0 0 2px;
+  background-color: #f1f0ed;
+  opacity: .7;
+}
+/* line 392, ../sass/styles.scss */
+.find-an-agent input[type="button"] {
+  color: white;
+  padding: 10px 30px;
+  border: 0;
+  height: 50px;
+  border-radius: 0 2px 2px 0;
+  text-transform: uppercase;
+  background-color: #6cdcac;
+  font-weight: bold;
+}
